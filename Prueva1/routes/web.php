@@ -22,3 +22,7 @@ Route::get('/inicio', function () {
 Route::get('/eliminar', function () {
     return view('eliminar');
 });
+Route::get('/editar', function () {
+    return view('editar');
+});
+
